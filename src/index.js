@@ -4,15 +4,12 @@ import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
-import Header from './Header/Header.react';
-import Navigation from './Navigation/Navigation.react';
-import Footer from './Footer/Footer.react';
+// import Header from './Header/Header.react';
+// import Navigation from './Navigation/Navigation.react';
+// import Footer from './Footer/Footer.react';
 
 ReactDOM.render(<BrowserRouter>
-            <Header></Header>
-            <Navigation></Navigation>
             <App />
-            <Footer></Footer>
         </BrowserRouter>, 
         document.getElementById('root')
     );

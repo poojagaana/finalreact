@@ -5,6 +5,16 @@ import React from 'react';
 // import FetchDonors from '../FetchDonors/FetchDonors.react';
 // import AddDonor from '../AddDonor/AddDonor.react'
 // import LifeCycle from '../LifeCycle/LifeCycle.react';
+import ShowContent from '../ShowContent/ShowContent.react'
+import ove from '../../src/o+ve.jpg'
+
+
+const request= {
+    bloodGroup: 'O+ve',
+    location: 'Chennai',
+    requiredUnit: 1,
+    imgRef: ove
+  }
 
 const Content = (props) => {
 
@@ -23,6 +33,7 @@ const Content = (props) => {
             <Search />
             <Blog> </Blog>
             <LifeCycle></LifeCycle> */}
+            <ShowContent request={request}></ShowContent>
         </div>
     );
 
